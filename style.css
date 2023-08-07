@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
-    font-size: 65.2%;
+    font-size: 65.5%;
 }
 
 /* Navbar */
@@ -20,7 +24,7 @@ header {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .navlist li {
@@ -41,31 +45,43 @@ header {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
-.home h1 {
+.home-text h2 {
     font-size: 3rem;
 }
 
-.home span {
+.home-text p {
+    width: 700px;
+    font-size: 1.4rem;
+}
+
+.home-text span {
     color: blue;
 }
 
-.home button {
+.home-text button {
     width: 150px;
     height: 30px;
+    border-radius: 8px;
     margin-top: 10px;
     border: none;
     background-color: black;
 }
 
-.home button>a {
+.home-text button>a {
     text-decoration: none;
     color: white;
 }
 
 .home-img img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+/*.home-img img {
     width: 300px;
     border-radius: 50%;
     animation: float 3s ease-in-out infinite;
@@ -79,4 +95,4 @@ header {
     50% {
         transform: translateY(-50px);
     }
-}
+}*/
