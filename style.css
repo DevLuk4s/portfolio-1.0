@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.2%;
+}
+
+/* Navbar */
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.navlist li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navlist a {
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+}
+
+/* Home */
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home span {
+    color: blue;
+}
+
+.home button {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+}
+
+.home button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-img img {
+    width: 300px;
+    border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
