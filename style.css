@@ -25,6 +25,7 @@ header {
 
 .logo {
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .navlist li {
@@ -47,6 +48,11 @@ header {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    border: 2px solid red;
+}
+
+.home-text {
+    border: 2px solid red;
 }
 
 .home-text h2 {
@@ -65,23 +71,25 @@ header {
 .home-text button {
     width: 150px;
     height: 30px;
-    border-radius: 8px;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
     border: none;
-    background-color: black;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+
+.home-text button:hover {
+    background-color: blue;
+    transition: 0.3s all;
 }
 
 .home-text button>a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 1.6rem;
 }
 
 .home-img img {
-    width: 300px;
-    border-radius: 50%;
-}
-
-/*.home-img img {
     width: 300px;
     border-radius: 50%;
     animation: float 3s ease-in-out infinite;
@@ -93,6 +101,6 @@ header {
     }
 
     50% {
-        transform: translateY(-50px);
+        transform: translateY(-5px);
     }
-}*/
+}
