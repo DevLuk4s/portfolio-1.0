@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio | Lucas Gabriel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <div class="logo">Lucas Gabriel</div>
 
         <nav>
@@ -25,32 +26,24 @@
                 <img src="img/eu.jpg" alt="eu">
             </div>
             <div class="home-text">
-                <h2>Desenvolvedor <br><span>Front-End.</span></h2>
+                <h1>Desenvolvedor <br><span>Front-End.</span></h1>
                 <p>
                     Sou um Desenvolvedor Front-end dedicado, com habilidades em HTML, CSS, JavaScript, React, Sass, Figma, Git e GitHub, pronto para contribuir com projetos impactantes e promover um ambiente de constante aprendizado e crescimento. Estou animado para enfrentar novos desafios e fazer parte de equipes inspiradoras que compartilham o mesmo amor pela criação de experiências web surpreendentes.
                 </p>
-                <button><a href="#">Curriculo</a></button>
-                <button><a href="https://github.com/DevLuk4s">GitHub</a></button>
-                <button><a href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/?originalSubdomain=br">Linkedin</a></button>
+                <a href="#" target="_blank"><button class="btn-curriculo">Curriculo</button></a>
+                <a href="#" target="_blank"><button class="btn-github">GitHub</button></a>
+                <a href="#" target="_blank"><button class="btn-linkedin">Linkedin</button></a>
             </div>
         </section>
         <section class="projetos" id="projetos">
+            <h1>Projetos</h1>
             <div class="projeto-row">
                 <div class="text">
                     <h2>Fitnes</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, provident?</p>
-                    <h4>HTML5 CSS3 JAVASCRIPT</h4>
-                    <i class="fa-regular fa-eye"></i>
-                </div>
-                <div class="img">
-                    <img src="img/projeto-fitnes.jpeg" alt="fitnes">
-                </div>
-            </div>
-            <div class="projeto-row-reverse">
-                <div class="text">
-                    <h2>Fitnes</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, provident?</p>
-                    <h4>HTML5 CSS3 JAVASCRIPT</h4>
+                    <p>Uma <strong>Landing Page</strong> para academia fitness foi criada com <strong>HTML5</strong> para a estrutura, <strong>CSS3</strong> para o design e <strong>JS</strong> para interações com usuários. A proposta da landing page foi criar um layout real de academia.</p>
+                    <h5>HTML5 CSS3 JAVASCRIPT</h5>
+                    <a href="https://devluk4s.github.io/site-academia/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                    <a href="https://github.com/DevLuk4s/site-academia" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
                 <div class="img">
                     <img src="img/projeto-fitnes.jpeg" alt="fitnes">
@@ -59,5 +52,7 @@
         </section>
     </main>
     <footer></footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 </html>

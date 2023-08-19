@@ -48,18 +48,17 @@ header {
     gap: 50px;
 }
 
-.home-text h2 {
-    font-size: 2.4rem;
+.home-text h1 {
+    font-size: 3.2rem;
 }
 
 .home-text p {
     width: 700px;
     font-size: 1.4rem;
-    word-wrap: break-word;
 }
 
 .home-text span {
-    color: blue;
+    color: red;
 }
 
 .home-text button {
@@ -72,15 +71,20 @@ header {
     border: 2px solid black;
 }
 
-.home-text button:hover {
-    background-color: rgb(94, 94, 94);
+.btn-curriculo:hover {
+    background-color: red;
     transition: 0.3s all;
 }
 
-.home-text button>a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.6rem;
+.btn-github:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s all;
+}
+
+.btn-linkedin:hover {
+    background-color: cornflowerblue;
+    transition: 0.3s all;
 }
 
 .home-img img {
@@ -105,6 +109,11 @@ header {
     height: 100vh;
 }
 
+.projetos h1 {
+    font-size: 3.2rem;
+    margin: 50px 200px;
+}
+
 .projeto-row {
     display: flex;
     flex-direction: row;
@@ -114,47 +123,46 @@ header {
     gap: 30px;
 }
 
-.projeto-row h2 {
-    font-size: 2.4rem;
+.text {
+    width: 500px;
     text-align: right;
 }
 
-.projeto-row h4 {
-    font-size: 1.6rem;
-    text-align: right;
-}
-
-.projeto-row p {
-    font-size: 1.4rem;
-}
-
-.projeto-row .img img {
-    width: 500px;
-}
-
-.projeto-row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    gap: 30px;
-}
-
-.projeto-row-reverse h2 {
+.text h2 {
     font-size: 2.4rem;
-    text-align: left;
 }
 
-.projeto-row-reverse h4 {
-    font-size: 1.6rem;
-    text-align: left;
-}
-
-.projeto-row-reverse p {
+.text p {
     font-size: 1.4rem;
 }
 
-.projeto-row-reverse .img img {
+.text h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 20px
+}
+
+.text i {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.text i:hover {
+    color: red;
+}
+
+.img img {
     width: 500px;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+/* Js */
+
+.navbar, .home, .projetos {
+    visibility: hidden;
 }
