@@ -123,46 +123,89 @@ header {
     gap: 30px;
 }
 
-.text {
+.projeto-row .text {
     width: 500px;
     text-align: right;
 }
 
-.text h2 {
+.projeto-row .text h2 {
     font-size: 2.4rem;
 }
 
-.text p {
+.projeto-row .text p {
     font-size: 1.4rem;
 }
 
-.text h5 {
+.projeto-row .text h5 {
     font-size: 1.4rem;
     font-weight: 600;
     margin-top: 20px
 }
 
-.text i {
+.projeto-row .text i {
     font-size: 2rem;
     margin-top: 20px;
     color: black;
 }
 
-.text i:hover {
+.projeto-row .text i:hover {
     color: red;
 }
 
-.img img {
+.projeto-row .img img {
     width: 500px;
 }
 
-.img img:hover {
+.projeto-row .img img:hover {
     transform: scale(1.1);
     transition: 0.3s all;
 }
 
-/* Js */
+/* Row Reverse */
 
-.navbar, .home, .projetos {
-    visibility: hidden;
+.projeto-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.projeto-row-reverse .text {
+    width: 500px;
+    text-align: left;
+}
+
+.projeto-row-reverse .text h2 {
+    font-size: 2.4rem;
+}
+
+.projeto-row-reverse .text p {
+    font-size: 1.4rem;
+}
+
+.projeto-row-reverse .text h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 20px
+}
+
+.projeto-row-reverse .text i {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.projeto-row-reverse .text i:hover {
+    color: red;
+}
+
+.projeto-row-reverse .img img {
+    width: 500px;
+}
+
+.projeto-row-reverse .img img:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
 }
