@@ -1,0 +1,64 @@
+/* Home */
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home-text h1 {
+    font-size: 3.2rem;
+}
+
+.home-text p {
+    width: 700px;
+    font-size: 1.4rem;
+}
+
+.home-text span {
+    color: red;
+}
+
+.home-text button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.btn-curriculo:hover {
+    background-color: red;
+    transition: 0.3s all;
+}
+
+.btn-github:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s all;
+}
+
+.btn-linkedin:hover {
+    background-color: rgb(10, 109, 194);
+    transition: 0.3s all;
+}
+
+.home-img img {
+    width: 300px;
+    border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}

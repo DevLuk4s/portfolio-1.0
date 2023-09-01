@@ -1,0 +1,25 @@
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.navlist li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navlist a {
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+}
