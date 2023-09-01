@@ -1,0 +1,34 @@
+.habilidades {
+    height: 100vh;
+}
+
+.text-center {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.habilidades-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades-texto {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
