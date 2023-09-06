@@ -1,4 +1,9 @@
-.habilidades {
+.caixa-habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 100vh;
 }
 
@@ -16,12 +21,22 @@
     height: 100vh;
 }
 
-.cards {
+.habilidades-img {
     width: 100%;
     height: 84vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.habilidades-img img {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.habilidades-img img:hover {
+    transform: rotateY(360deg);
+    transition: 0.7s all;
 }
 
 .habilidades-texto {

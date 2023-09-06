@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="/css/habilidades.css">
+    <link rel="stylesheet" href="css/habilidades.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
         <nav>
             <ul class="navlist">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#caixa-habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -34,9 +35,9 @@
                 <p>
                     Sou um Desenvolvedor Front-end dedicado, com habilidades em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Git</strong> e <strong>GitHub</strong>, pronto para contribuir com projetos impactantes e promover um ambiente de constante aprendizado e crescimento. Estou animado para enfrentar novos desafios e fazer parte de equipes inspiradoras que compartilham o mesmo amor pela criação de experiências web surpreendentes.
                 </p>
-                <a href="#" target="_blank"><button class="btn-curriculo">Curriculo</button></a>
-                <a href="#" target="_blank"><button class="btn-github">GitHub</button></a>
-                <a href="#" target="_blank"><button class="btn-linkedin">Linkedin</button></a>
+                <a href="curriculo/Currículo-Lucas-Gabriel.docx" download="curriculo-lucasgabriel" type="application/pdf"><button class="btn-curriculo">Curriculo</button></a>
+                <a href="https://github.com/DevLuk4s" target="_blank"><button class="btn-github">GitHub</button></a>
+                <a href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/" target="_blank"><button class="btn-linkedin">Linkedin</button></a>
             </div>
         </section>
         <section class="projetos" id="projetos">
@@ -114,26 +115,25 @@
                 </div>
             </div>
         </section>
-        <section class="habilidades" id="habilidades">
+        <section class="caixa-habilidades" id="caixa-habilidades">
             <h1 class="text-center">Habilidades</h1>
             <div class="habilidades-row">
-                <div class="cards">
-                    <img src="img/js.png" alt="js">
-                    <img src="img/react.png" alt="react">
-                    <img src="img/html5.png" alt="html">
-                    <img src="img/css3.png" alt="css">
-                    <img src="img/node.js.png" alt="node">
-                    <img src="img/bootstrap.png" alt="bootstrap">
-                    <img src="img/github.png" alt="github">
-                    <img src="img/git.png" alt="git">
+                <div class="habilidades-img">
+                    <img src="img/js.png" alt="js" class="habilidades-js">
+                    <img src="img/html5.png" alt="html" class="habilidades-html">
+                    <img src="img/css3.png" alt="css" class="habilidades-css">
+                    <img src="img/github.png" alt="github" class="habilidades-github">
+                    <img src="img/git.png" alt="git" class="habilidades-git">
                 </div>
                 <div class="habilidades-texto">
-                    <h1>Passe mouse cima da linguegem</h1>
+                    <h1 class="texto-js">Passe mouse cima da linguegem</h1>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
-    <script src="js/script.js" defer></script>
+    <footer>
+        <h1>Lucas Gabriel</h1>
+    </footer>
+    <script src="js/habilidades.js" defer></script>
 </body>
 </html>
