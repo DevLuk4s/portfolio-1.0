@@ -68,3 +68,13 @@
         transform: translateY(-5px);
     }
 }
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .home-img img {
+        max-width: 200px;
+    }
+}

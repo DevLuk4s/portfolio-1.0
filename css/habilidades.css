@@ -30,6 +30,7 @@
 }
 
 .habilidades-img img {
+    width: 6.4rem;
     margin: 0 10px;
     cursor: pointer;
 }
@@ -49,4 +50,10 @@
 
 .habilidades-texto h4 {
     font-size: var(--h4--);
+}
+
+@media (max-width: 768px) {
+    .habilidades-row {
+        flex-direction: column;
+    }
 }

@@ -107,3 +107,13 @@
     transform: scale(1.1);
     transition: 0.3s all;
 }
+
+@media (max-width: 768px) {
+    .projeto-row {
+        flex-direction: column;
+    }
+
+    .projeto-row-reverse {
+        flex-direction: column;
+    }
+}
