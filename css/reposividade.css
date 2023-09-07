@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+}

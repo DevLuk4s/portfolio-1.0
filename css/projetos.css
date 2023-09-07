@@ -1,11 +1,12 @@
 /* Projetos */
 
 .projetos {
-    height: 300vh;
+    width: 100%;
+    height: auto;
 }
 
 .projetos h1 {
-    font-size: 3.2rem;
+    font-size: var(--h1--);
     margin: 50px 200px;
 }
 
@@ -24,21 +25,21 @@
 }
 
 .projeto-row .text h2 {
-    font-size: 2.4rem;
+    font-size: var(--h2--);
 }
 
 .projeto-row .text p {
-    font-size: 1.4rem;
+    font-size: var(--p--);
 }
 
 .projeto-row .text h5 {
-    font-size: 1.4rem;
+    font-size: var(--h5--);
     font-weight: 600;
     margin-top: 20px
 }
 
 .projeto-row .text i {
-    font-size: 2rem;
+    font-size: var(--i--);
     margin-top: 20px;
     color: black;
 }
@@ -48,7 +49,8 @@
 }
 
 .projeto-row .img img {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .projeto-row .img img:hover {
@@ -73,21 +75,21 @@
 }
 
 .projeto-row-reverse .text h2 {
-    font-size: 2.4rem;
+    font-size: var(--h2--);
 }
 
 .projeto-row-reverse .text p {
-    font-size: 1.4rem;
+    font-size: var(--p--);
 }
 
 .projeto-row-reverse .text h5 {
-    font-size: 1.4rem;
+    font-size: var(--h5--);
     font-weight: 600;
     margin-top: 20px
 }
 
 .projeto-row-reverse .text i {
-    font-size: 2rem;
+    font-size: var(--i--);
     margin-top: 20px;
     color: black;
 }
@@ -97,7 +99,8 @@
 }
 
 .projeto-row-reverse .img img {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .projeto-row-reverse .img img:hover {

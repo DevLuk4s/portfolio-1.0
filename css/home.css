@@ -1,20 +1,23 @@
 /* Home */
 
 .home {
+    width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
 
 .home-text h1 {
-    font-size: 3.2rem;
+    font-size: var(--h1--);
 }
 
 .home-text p {
-    width: 700px;
-    font-size: 1.4rem;
+    max-width: 700px;
+    width: 100%;
+    font-size: var(--p--);
 }
 
 .home-text span {
@@ -33,6 +36,7 @@
 
 .btn-curriculo:hover {
     background-color: red;
+    color: white;
     transition: 0.3s all;
 }
 
@@ -44,11 +48,13 @@
 
 .btn-linkedin:hover {
     background-color: rgb(10, 109, 194);
+    color: white;
     transition: 0.3s all;
 }
 
 .home-img img {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     border-radius: 50%;
     animation: float 3s ease-in-out infinite;
 }

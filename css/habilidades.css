@@ -7,8 +7,8 @@
     height: 100vh;
 }
 
-.text-center {
-    font-size: 3.2rem;
+.text-center h1 {
+    font-size: var(--h1--);
     text-align: center;
 }
 
@@ -45,5 +45,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
+}
+
+.habilidades-texto h4 {
+    font-size: var(--h4--);
 }
