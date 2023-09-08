@@ -41,6 +41,7 @@
 }
 
 .habilidades-texto {
+    max-width: 500px;
     width: 100%;
     height: 84vh;
     display: flex;

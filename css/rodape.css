@@ -1,7 +1,5 @@
 footer {
-    width: 100%;
     background-color: black;
-    padding: 20px;
     color: white;
 }
 
@@ -14,10 +12,6 @@ footer {
 
 .footer-conteiner p {
     font-size: var(--p--);
-}
-
-.contatos-redes {
-
 }
 
 .topo i {
