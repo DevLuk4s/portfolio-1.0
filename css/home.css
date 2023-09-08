@@ -25,8 +25,9 @@
 }
 
 .home-text button {
-    width: 150px;
-    height: 30px;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     margin-top: 20px;
     border: none;
