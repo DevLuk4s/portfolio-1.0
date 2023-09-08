@@ -74,6 +74,10 @@
         flex-direction: column;
     }
 
+    .home-text {
+        text-align: center;
+    }
+
     .home-img img {
         max-width: 200px;
     }
