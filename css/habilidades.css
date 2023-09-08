@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.habilidades-row {
+.habilidades-col {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,17 +25,18 @@
     width: 100%;
     height: 84vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.habilidades-img img {
+.col1 img {
     width: 6.4rem;
-    margin: 0 10px;
+    margin: 10px 10px;
     cursor: pointer;
 }
 
-.habilidades-img img:hover {
+.col1 img:hover {
     transform: rotateY(360deg);
     transition: 0.7s all;
 }
@@ -54,7 +55,7 @@
 }
 
 @media (max-width: 768px) {
-    .habilidades-row {
+    .habilidades-col {
         flex-direction: column;
     }
 }
