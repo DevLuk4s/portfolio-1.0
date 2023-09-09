@@ -25,33 +25,18 @@ header {
     text-decoration: none;
 }
 
+.mobile-menu-icon button {
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+
 @media (max-width: 617px) {
-    .one,
-    .two,
-    .three {
-        background-color: #000;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
+    .navlist {
+        display: none;
     }
 
-    .menu-toggle {
-        width: 40px;
-        height: 30px;
-    }
-
-    .menu-section.on {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: #fff;
-        width: 100vw;
-        height: 100vh;
-        z-index: 1;
-    }
-
-    .menu-section.on .navlist {
+    .mobile-menu-icon button {
         display: block;
-        z-index: 2;
     }
 }

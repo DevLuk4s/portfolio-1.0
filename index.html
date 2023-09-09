@@ -16,14 +16,6 @@
     <header class="navbar">
         <div class="logo">Lucas Gabriel</div>
 
-        <div class="menu-section on">
-            <div class="menu-toggle">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-            </div>
-        </div>
-
         <nav>
             <ul class="navlist">
                 <li><a href="#home">Home</a></li>
@@ -31,7 +23,12 @@
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/hamburger.png" alt="hamburger"></button>
+            </div>
         </nav>
+
     </header>
     <main>
         <!-- inicio do home -->
@@ -137,5 +134,6 @@
     </footer>
     <!-- fim do rodape -->
     <script src="js/habilidades.js" defer></script>
+    <script src="js/menu-show.js" defer></script>
 </body>
 </html>
