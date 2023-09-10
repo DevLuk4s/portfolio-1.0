@@ -13,22 +13,32 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">Lucas Gabriel</div>
-
-        <nav>
-            <ul class="navlist">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#caixa-habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Lucas Gabriel</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/hamburger.png" alt="hamburger"></button>
+                <button onclick="menuShow()"><img class="icon" src="/img/hamburger.png" alt=""></button>
             </div>
         </nav>
-
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#Contatos" class="nav-link">Contatos</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <!-- inicio do home -->
@@ -89,7 +99,7 @@
         </section>
         <!-- fim do projeto -->
         <!-- inicio do habilidades -->
-        <section class="caixa-habilidades" id="caixa-habilidades">
+        <section class="habilidades" id="habilidades">
             <div class="text-center"><h1>Habilidades</h1></div>
             <div class="habilidades-col">
                 <div class="habilidades-img">
@@ -114,7 +124,7 @@
         <!-- fim do habilidades -->
     </main>
     <!-- inicio do rodape -->
-    <footer id="contato">
+    <footer class="contato" id="contatos">
         <div class="footer-conteiner">
             <h1>Contato</h1>
             <p>Redes Sociais</p>
