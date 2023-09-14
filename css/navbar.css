@@ -42,6 +42,11 @@ header {
     font-weight: 400;
 }
 
+.nav-link:hover {
+    color: red;
+    transition: 0.3s all;
+}
+
 .mobile-menu-icon {
     display: none;
 }
