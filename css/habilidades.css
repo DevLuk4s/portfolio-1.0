@@ -38,7 +38,7 @@
 
 .col1 img:hover {
     transform: rotateY(360deg);
-    transition: 0.7s all;
+    transition: 1s all;
 }
 
 .habilidades-texto {
