@@ -11,7 +11,7 @@ ScrollReveal().reveal('.home', {
 
 ScrollReveal().reveal('.habilidades', {
     delay: 500,
-    origin: 'right'
+    origin: 'left'
 });
 
 ScrollReveal().reveal('.projetos', {
