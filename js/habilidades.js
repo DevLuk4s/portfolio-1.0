@@ -6,7 +6,8 @@ const elementos = {
   bootstrap: document.querySelector('.habilidades-bootstrap'),
   node: document.querySelector('.habilidades-node'),
   github: document.querySelector('.habilidades-github'),
-  git: document.querySelector('.habilidades-git')
+  git: document.querySelector('.habilidades-git'),
+  typescript: document.querySelector('.habilidades-typescript')
 };
 
 const texto = document.querySelector('.texto-js');
@@ -34,7 +35,8 @@ function obtenerDescripcion(lenguaje) {
     bootstrap: 'Bootstrap é um popular framework de código aberto para desenvolvimento de páginas da web e aplicativos responsivos. Ele fornece uma coleção de estilos, componentes e JavaScript pré-desenvolvidos que facilitam a criação de interfaces de usuário atraentes e funcionais. Aqui está um resumo do Bootstrap',
     node: 'Em resumo, Node.js é uma plataforma de tempo de execução JavaScript que permite aos desenvolvedores criar aplicativos de servidor escaláveis e eficientes, bem como ferramentas de linha de comando. Sua natureza assíncrona e não-bloqueante é especialmente adequada para lidar com várias conexões simultâneas, tornando-o uma escolha popular para aplicativos em tempo real e de alto desempenho na web.',
     github: 'O GitHub é uma plataforma de hospedagem e colaboração de código-fonte usada principalmente por desenvolvedores de software.',
-    git: 'O Git é um sistema de controle de versão distribuído amplamente usado por desenvolvedores de software para rastrear e gerenciar alterações no código-fonte de projetos.'
+    git: 'O Git é um sistema de controle de versão distribuído amplamente usado por desenvolvedores de software para rastrear e gerenciar alterações no código-fonte de projetos.',
+    typescript: 'O TypeScript é uma linguagem de programação desenvolvida pela Microsoft que estende o JavaScript, adicionando tipagem estática ao código. Ele permite aos desenvolvedores especificar tipos para variáveis, funções e objetos, tornando o código mais seguro e legível. Esses tipos são verificados em tempo de compilação, ajudando a detectar erros de tipo antes da execução do programa. TypeScript também oferece recursos como interfaces, herança de tipos, suporte a ES6, integração com bibliotecas JavaScript e ferramentas de desenvolvimento avançadas. É amplamente usado para melhorar a qualidade e a manutenibilidade do código JavaScript, especialmente em projetos complexos.'
   };
   return descripciones[lenguaje];
 }
