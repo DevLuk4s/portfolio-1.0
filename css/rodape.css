@@ -1,7 +1,5 @@
-footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
+.contatos {
+    padding: 30px;
 }
 
 .footer-conteiner {
@@ -13,17 +11,23 @@ footer {
 
 .footer-conteiner p {
     font-size: var(--p--);
+    margin: 10px 0;
+}
+
+.contatos-redes img {
+    margin: 0 5px;
 }
 
 .topo i {
     display: flex;
     align-items: center;
     justify-content: right;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: var(--i--);
 }
 
 .rodape {
     text-align: center;
+    margin-top: 10px;
 }
