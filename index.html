@@ -1,167 +1,310 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio | Lucas Gabriel</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/projetos.css">
-    <link rel="stylesheet" href="css/habilidades.css">
-    <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/scrollreveal.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/projetos.css" />
+    <link rel="stylesheet" href="css/habilidades.css" />
+    <link rel="stylesheet" href="css/rodape.css" />
+    <link rel="stylesheet" href="css/scrollreveal.css" />
     <!-- BIBLIOTECA -->
     <script src="https://unpkg.com/scrollreveal" defer></script>
     <!-- ICON -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  </head>
+  <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1>Lucas Gabriel</h1>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
-                </ul>
-            </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
-                <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
-            </ul>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1>Lucas Gabriel</h1>
         </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projetos" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#habilidades" class="nav-link">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contatos" class="nav-link">Contatos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="img/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#habilidades" class="nav-link">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contatos" class="nav-link">Contatos</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-        <!-- inicio do home -->
-        <section class="home" id="home">
-            <div class="home-img">
-                <img src="img/eu.jpg" alt="eu">
+      <!-- inicio do home -->
+      <section class="home" id="home">
+        <div class="home-img">
+          <img src="img/eu.jpg" alt="eu" />
+        </div>
+        <div class="home-text">
+          <h1>Desenvolvedor <br /><span>Front-End.</span></h1>
+          <p>
+            Sou um Desenvolvedor Front-end dedicado, com habilidades em
+            <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong>, <strong>Typescript</strong>,
+            <strong>React</strong>, <strong>Git</strong> e
+            <strong>GitHub</strong>, <strong>NodeJs</strong>, pronto para
+            contribuir com projetos impactantes e promover um ambiente de
+            constante aprendizado e crescimento. Estou animado para enfrentar
+            novos desafios e fazer parte de equipes inspiradoras que
+            compartilham o mesmo amor pela criação de experiências web
+            surpreendentes.
+          </p>
+          <a
+            href="curriculo/Currículo-Lucas-Gabriel.pdf"
+            download="curriculo-lucasgabriel"
+            type="application/pdf"
+            ><button class="btn-curriculo">Curriculo</button></a
+          >
+          <a href="https://github.com/DevLuk4s" target="_blank"
+            ><button class="btn-github">GitHub</button></a
+          >
+          <a
+            href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/"
+            target="_blank"
+            ><button class="btn-linkedin">Linkedin</button></a
+          >
+        </div>
+      </section>
+      <!-- fim do home -->
+      <!-- inicio do projeto -->
+      <section class="projetos" id="projetos">
+        <h1>Projetos</h1>
+        <div class="projeto-row">
+          <div class="text">
+            <h2>Fitnes</h2>
+            <p>
+              Uma <strong>Landing Page</strong> para academia fitness foi criada
+              com <strong>HTML5</strong> para a estrutura,
+              <strong>CSS3</strong> para o design e <strong>JS</strong> para
+              interações com usuários. A proposta da landing page foi criar um
+              layout real de academia.
+            </p>
+            <h5>HTML5 CSS3 JAVASCRIPT</h5>
+            <a href="https://devluk4s.github.io/site-academia/" target="_blank"
+              ><i class="fa-regular fa-eye"></i
+            ></a>
+            <a href="https://github.com/DevLuk4s/site-academia" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="img">
+            <a href="https://devluk4s.github.io/site-academia/" target="_blank"
+              ><img src="img/projeto-fitnes.jpeg" alt="fitnes"
+            /></a>
+          </div>
+        </div>
+        <div class="projeto-row-reverse">
+          <div class="text">
+            <h2>Jogo Da Memoria</h2>
+            <p>
+              O <strong>Jogo da Memória</strong> é um clássico que desafia a
+              capacidade de concentração e memorização dos jogadores adicionando
+              recursos como a tela "Play Game", armazenamento do nome do usuário
+              com <strong>LocalStorage</strong> e um cronômetro para acompanhar
+              o tempo de jogo.
+            </p>
+            <h5>HTML5 CSS3 JAVASCRIPT</h5>
+            <a
+              href="https://devluk4s.github.io/jogo-da-memoria/"
+              target="_blank"
+              ><i class="fa-regular fa-eye"></i
+            ></a>
+            <a
+              href="https://github.com/DevLuk4s/jogo-da-memoria"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="img">
+            <a
+              href="https://devluk4s.github.io/jogo-da-memoria/"
+              target="_blank"
+              ><img src="img/projeto-jogo-da-memoria.jpeg" alt="fitnes"
+            /></a>
+          </div>
+        </div>
+        <div class="projeto-row">
+          <div class="text">
+            <h2>Orçamento pessoal</h2>
+            <p>
+              A <strong>gestão financeira pessoal</strong> é fundamental para
+              uma vida financeira saudável e bem-organizada. Criar um aplicativo
+              de orçamento pessoal é uma excelente maneira de controlar suas
+              despesas, receitas e manter o controle de seu dinheiro.
+            </p>
+            <h5>HTML5 CSS3 JAVASCRIPT BOOTSTRAP</h5>
+            <a
+              href="https://devluk4s.github.io/orcamento-pessoal/"
+              target="_blank"
+              ><i class="fa-regular fa-eye"></i
+            ></a>
+            <a
+              href="https://github.com/DevLuk4s/orcamento-pessoal"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="img">
+            <a
+              href="https://devluk4s.github.io/orcamento-pessoal/"
+              target="_blank"
+              ><img src="img/orcamento-pessoal.jpeg" alt="fitnes"
+            /></a>
+          </div>
+        </div>
+        <div class="projeto-row-reverse">
+          <div class="text">
+            <h2>Pokedex</h2>
+            <p>
+              Desenvolvi um projeto simples de uma Pokédex que faz uso de uma
+              <strong>API</strong> para criar uma Pokédex básica. O objetivo
+              principal desse projeto foi praticar conceitos, tais como o uso do
+              método <strong>fetch</strong> do JavaScript,
+              <strong>assincronicidade</strong> e o método
+              <strong>await</strong> para lidar com chamadas
+              <strong>assíncronas</strong>.
+            </p>
+            <h5>HTML5 CSS3 JAVASCRIPT API</h5>
+            <a href="https://devluk4s.github.io/Pokedex-api/" target="_blank"
+              ><i class="fa-regular fa-eye"></i
+            ></a>
+            <a href="https://github.com/DevLuk4s/Pokedex-api" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="img">
+            <a href="https://devluk4s.github.io/Pokedex-api/" target="_blank"
+              ><img src="img/projeto-pokedex.jpeg" alt="fitnes"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- fim do projeto -->
+      <!-- inicio do habilidades -->
+      <section class="habilidades" id="habilidades">
+        <div class="text-center"><h1>Habilidades</h1></div>
+        <div class="habilidades-col">
+          <div class="habilidades-img">
+            <div class="col1">
+              <img
+                src="img/javascript-original.svg"
+                alt="js"
+                class="habilidades-js"
+              />
+              <img
+                src="img/html5-original.svg"
+                alt="html"
+                class="habilidades-html"
+              />
+              <img
+                src="img/css3-original.svg"
+                alt="css"
+                class="habilidades-css"
+              /><br />
+              <img
+                src="img/react-original.svg"
+                alt="react"
+                class="habilidades-react"
+              />
+              <img
+                src="img/bootstrap-original.svg"
+                alt="bootstrap"
+                class="habilidades-bootstrap"
+              />
+              <img
+                src="img/typescript-original.svg"
+                alt="typescript"
+                class="habilidades-typescript"
+              /><br />
+              <img
+                src="img/nodejs-original.svg"
+                alt="node"
+                class="habilidades-node"
+              />
+              <img
+                src="img/github-original.svg"
+                alt="github"
+                class="habilidades-github"
+              />
+              <img
+                src="img/git-original.svg"
+                alt="git"
+                class="habilidades-git"
+              />
             </div>
-            <div class="home-text">
-                <h1>Desenvolvedor <br><span>Front-End.</span></h1>
-                <p>
-                    Sou um Desenvolvedor Front-end dedicado, com habilidades em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Typescript</strong>, <strong>React</strong>, <strong>Git</strong> e <strong>GitHub</strong>, <strong>NodeJs</strong>, pronto para contribuir com projetos impactantes e promover um ambiente de constante aprendizado e crescimento. Estou animado para enfrentar novos desafios e fazer parte de equipes inspiradoras que compartilham o mesmo amor pela criação de experiências web surpreendentes.
-                </p>
-                <a href="curriculo/Currículo-Lucas-Gabriel.pdf" download="curriculo-lucasgabriel" type="application/pdf"><button class="btn-curriculo">Curriculo</button></a>
-                <a href="https://github.com/DevLuk4s" target="_blank"><button class="btn-github">GitHub</button></a>
-                <a href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/" target="_blank"><button class="btn-linkedin">Linkedin</button></a>
-            </div>
-        </section>
-        <!-- fim do home -->
-        <!-- inicio do projeto -->
-        <section class="projetos" id="projetos">
-            <h1>Projetos</h1>
-            <div class="projeto-row">
-                <div class="text">
-                    <h2>Fitnes</h2>
-                    <p>Uma <strong>Landing Page</strong> para academia fitness foi criada com <strong>HTML5</strong> para a estrutura, <strong>CSS3</strong> para o design e <strong>JS</strong> para interações com usuários. A proposta da landing page foi criar um layout real de academia.</p>
-                    <h5>HTML5 CSS3 JAVASCRIPT</h5>
-                    <a href="https://devluk4s.github.io/site-academia/" target="_blank"><i class="fa-regular fa-eye"></i></a>
-                    <a href="https://github.com/DevLuk4s/site-academia" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="img">
-                    <a href="https://devluk4s.github.io/site-academia/" target="_blank"><img src="img/projeto-fitnes.jpeg" alt="fitnes"></a>
-                </div>
-            </div>
-            <div class="projeto-row-reverse">
-                <div class="text">
-                    <h2>Jogo Da Memoria</h2>
-                    <p>O <strong>Jogo da Memória</strong> é um clássico que desafia a capacidade de concentração e memorização dos jogadores adicionando recursos como a tela "Play Game", armazenamento do nome do usuário com <strong>LocalStorage</strong> e um cronômetro para acompanhar o tempo de jogo.</p>
-                    <h5>HTML5 CSS3 JAVASCRIPT</h5>
-                    <a href="https://devluk4s.github.io/jogo-da-memoria/" target="_blank"><i class="fa-regular fa-eye"></i></a>
-                    <a href="https://github.com/DevLuk4s/jogo-da-memoria" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="img">
-                    <a href="https://devluk4s.github.io/jogo-da-memoria/" target="_blank"><img src="img/projeto-jogo-da-memoria.jpeg" alt="fitnes"></a>
-                </div>
-            </div>
-            <div class="projeto-row">
-                <div class="text">
-                    <h2>Orçamento pessoal</h2>
-                    <p>A <strong>gestão financeira pessoal</strong> é fundamental para uma vida financeira saudável e bem-organizada. Criar um aplicativo de orçamento pessoal é uma excelente maneira de controlar suas despesas, receitas e manter o controle de seu dinheiro.</p>
-                    <h5>HTML5 CSS3 JAVASCRIPT BOOTSTRAP</h5>
-                    <a href="https://devluk4s.github.io/orcamento-pessoal/" target="_blank"><i class="fa-regular fa-eye"></i></a>
-                    <a href="https://github.com/DevLuk4s/orcamento-pessoal" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="img">
-                    <a href="https://devluk4s.github.io/orcamento-pessoal/" target="_blank"><img src="img/orcamento-pessoal.jpeg" alt="fitnes"></a>
-                </div>
-            </div>
-            <div class="projeto-row-reverse">
-                <div class="text">
-                    <h2>Pokedex</h2>
-                    <p>Desenvolvi um projeto simples de uma Pokédex que faz uso de uma <strong>API</strong> para criar uma Pokédex básica. O objetivo principal desse projeto foi praticar conceitos, tais como o uso do método <strong>fetch</strong> do JavaScript, <strong>assincronicidade</strong> e o método <strong>await</strong> para lidar com chamadas <strong>assíncronas</strong>.</p>
-                    <h5>HTML5 CSS3 JAVASCRIPT API</h5>
-                    <a href="https://devluk4s.github.io/Pokedex-api/" target="_blank"><i class="fa-regular fa-eye"></i></a>
-                    <a href="https://github.com/DevLuk4s/Pokedex-api" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="img">
-                    <a href="https://devluk4s.github.io/Pokedex-api/" target="_blank"><img src="img/projeto-pokedex.jpeg" alt="fitnes"></a>
-                </div>
-            </div>
-        </section>
-        <!-- fim do projeto -->
-        <!-- inicio do habilidades -->
-        <section class="habilidades" id="habilidades">
-            <div class="text-center"><h1>Habilidades</h1></div>
-            <div class="habilidades-col">
-                <div class="habilidades-img">
-                    <div class="col1">
-                        <img src="img/javascript-original.svg" alt="js" class="habilidades-js">
-                        <img src="img/html5-original.svg" alt="html" class="habilidades-html">
-                        <img src="img/css3-original.svg" alt="css" class="habilidades-css"><br>
-                        <img src="img/react-original.svg" alt="react" class="habilidades-react">
-                        <img src="img/bootstrap-original.svg" alt="bootstrap" class="habilidades-bootstrap">
-                        <img src="img/typescript-original.svg" alt="typescript" class="habilidades-typescript"><br>
-                        <img src="img/nodejs-original.svg" alt="node" class="habilidades-node">
-                        <img src="img/github-original.svg" alt="github" class="habilidades-github">
-                        <img src="img/git-original.svg" alt="git" class="habilidades-git">
-                    </div>
-                </div>
-                <div class="habilidades-texto">
-                    <h4 class="texto-js">passe mouse cima da linguegem</h4>
-                </div>
-            </div>
-        </section>
-        <!-- fim do habilidades -->
+          </div>
+          <div class="habilidades-texto">
+            <h4 class="texto-js">passe mouse cima da linguegem</h4>
+          </div>
+        </div>
+      </section>
+      <!-- fim do habilidades -->
     </main>
     <!-- inicio do rodape -->
     <footer class="contatos" id="contatos">
-        <div class="footer-conteiner">
-            <h1>Contato</h1>
-            <p>Redes Sociais</p>
-            <div class="contatos-redes">
-                <a href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-                <a href="https://wa.me/557187979547" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="insta"></a>
-                <a href="https://github.com/DevLuk4s" target="_blank"><img src="img/github (2).png" alt="github"></a>
-            </div>
+      <div class="footer-conteiner">
+        <h1>Contato</h1>
+        <p>Redes Sociais</p>
+        <div class="contatos-redes">
+          <a
+            href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/"
+            target="_blank"
+            ><img src="img/linkedin.png" alt="linkedin"
+          /></a>
+          <a href="https://wa.me/557187979547" target="_blank"
+            ><img src="img/whatsapp.png" alt="whatsapp"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="img/instagram.png" alt="insta"
+          /></a>
+          <a href="https://github.com/DevLuk4s" target="_blank"
+            ><img src="img/github (2).png" alt="github"
+          /></a>
         </div>
-        <div class="rodape">
-            <h2>Todos os direitos reservados</h2>
-        </div>
-        <div class="topo">
-            <a href="#" id="home"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>
+      </div>
+      <div class="rodape">
+        <h2>Todos os direitos reservados</h2>
+      </div>
+      <div class="topo">
+        <a href="#" id="home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
     </footer>
     <!-- fim do rodape -->
     <!-- JavaScript -->
     <script src="js/habilidades.js" defer></script>
     <script src="js/menu-show.js" defer></script>
     <script src="js/scrollreveal.js" defer></script>
-</body>
+  </body>
 </html>

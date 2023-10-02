@@ -1,35 +1,35 @@
 .contatos {
-    padding: 30px;
-    background-color: black;
-    color: white;
+  padding: 30px;
+  background-color: black;
+  color: white;
 }
 
 .footer-conteiner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-conteiner p {
-    font-size: var(--p--);
-    margin: 10px 0;
+  font-size: var(--p--);
+  margin: 10px 0;
 }
 
 .contatos-redes img {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .topo i {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    color: white;
-    text-decoration: none;
-    font-size: var(--i--);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  text-decoration: none;
+  font-size: var(--i--);
 }
 
 .rodape {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }

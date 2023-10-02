@@ -1,85 +1,86 @@
 /* Home */
 
 .home {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .home-text h1 {
-    font-size: var(--h1--);
+  font-size: var(--h1--);
 }
 
 .home-text p {
-    max-width: 700px;
-    width: 100%;
-    font-size: var(--p--);
+  max-width: 700px;
+  width: 100%;
+  font-size: var(--p--);
 }
 
 .home-text span {
-    color: red;
+  color: red;
 }
 
 .home-text button {
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 20px;
-    border: none;
-    background-color: transparent;
-    border: 2px solid black;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid black;
 }
 
 .btn-curriculo:hover {
-    background-color: red;
-    color: white;
-    transition: 0.3s all;
+  background-color: red;
+  color: white;
+  transition: 0.3s all;
 }
 
 .btn-github:hover {
-    background-color: black;
-    color: white;
-    transition: 0.3s all;
+  background-color: black;
+  color: white;
+  transition: 0.3s all;
 }
 
 .btn-linkedin:hover {
-    background-color: rgb(10, 109, 194);
-    color: white;
-    transition: 0.3s all;
+  background-color: rgb(10, 109, 194);
+  color: white;
+  transition: 0.3s all;
 }
 
 .home-img img {
-    max-width: 300px;
-    width: 100%;
-    border-radius: 50%;
-    animation: float 3s ease-in-out infinite;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(-10px);
-    }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @media (max-width: 768px) {
-    .home {
-        flex-direction: column;
-    }
+  .home {
+    flex-direction: column;
+  }
 
-    .home-text {
-        text-align: center;
-    }
+  .home-text {
+    text-align: center;
+  }
 
-    .home-img img {
-        max-width: 200px;
-    }
+  .home-img img {
+    max-width: 200px;
+  }
 }

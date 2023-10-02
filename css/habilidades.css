@@ -1,61 +1,61 @@
 .caixa-habilidades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .text-center h1 {
-    font-size: var(--h1--);
-    text-align: center;
+  font-size: var(--h1--);
+  text-align: center;
 }
 
 .habilidades-col {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .habilidades-img {
-    width: 100%;
-    height: 84vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .col1 img {
-    width: 6.4rem;
-    margin: 10px 10px;
-    cursor: pointer;
+  width: 6.4rem;
+  margin: 10px 10px;
+  cursor: pointer;
 }
 
 .col1 img:hover {
-    transform: rotateY(360deg);
-    transition: 1s all;
+  transform: rotateY(360deg);
+  transition: 1s all;
 }
 
 .habilidades-texto {
-    max-width: 500px;
-    width: 100%;
-    height: 84vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  max-width: 500px;
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .habilidades-texto h4 {
-    font-size: var(--h4--);
+  font-size: var(--h4--);
 }
 
 @media (max-width: 768px) {
-    .habilidades-col {
-        flex-direction: column;
-    }
+  .habilidades-col {
+    flex-direction: column;
+  }
 }

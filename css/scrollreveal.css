@@ -1,3 +1,5 @@
-.home, .habilidades, .projetos {
-    visibility: hidden;
+.home,
+.habilidades,
+.projetos {
+  visibility: hidden;
 }

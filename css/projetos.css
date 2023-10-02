@@ -1,121 +1,121 @@
 /* Projetos */
 
 .projetos {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .projetos h1 {
-    font-size: var(--h1--);
-    margin: 50px 200px;
+  font-size: var(--h1--);
+  margin: 50px 200px;
 }
 
 .projeto-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 30px;
 }
 
 .projeto-row .text {
-    width: 100%;
-    max-width: 500px;
-    text-align: right;
+  width: 100%;
+  max-width: 500px;
+  text-align: right;
 }
 
 .projeto-row .text h2 {
-    font-size: var(--h2--);
+  font-size: var(--h2--);
 }
 
 .projeto-row .text p {
-    font-size: var(--p--);
+  font-size: var(--p--);
 }
 
 .projeto-row .text h5 {
-    font-size: var(--h5--);
-    font-weight: 600;
-    margin-top: 20px
+  font-size: var(--h5--);
+  font-weight: 600;
+  margin-top: 20px;
 }
 
 .projeto-row .text i {
-    font-size: var(--i--);
-    margin-top: 20px;
-    color: black;
+  font-size: var(--i--);
+  margin-top: 20px;
+  color: black;
 }
 
 .projeto-row .text i:hover {
-    color: red;
+  color: red;
 }
 
 .projeto-row .img img {
-    max-width: 500px;
-    width: 100%;
+  max-width: 500px;
+  width: 100%;
 }
 
 .projeto-row .img img:hover {
-    transform: scale(1.1);
-    transition: 0.3s all;
+  transform: scale(1.1);
+  transition: 0.3s all;
 }
 
 /* Row Reverse */
 
 .projeto-row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    gap: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 30px;
 }
 
 .projeto-row-reverse .text {
-    width: 100%;
-    max-width: 500px;
-    text-align: left;
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
 }
 
 .projeto-row-reverse .text h2 {
-    font-size: var(--h2--);
+  font-size: var(--h2--);
 }
 
 .projeto-row-reverse .text p {
-    font-size: var(--p--);
+  font-size: var(--p--);
 }
 
 .projeto-row-reverse .text h5 {
-    font-size: var(--h5--);
-    font-weight: 600;
-    margin-top: 20px
+  font-size: var(--h5--);
+  font-weight: 600;
+  margin-top: 20px;
 }
 
 .projeto-row-reverse .text i {
-    font-size: var(--i--);
-    margin-top: 20px;
-    color: black;
+  font-size: var(--i--);
+  margin-top: 20px;
+  color: black;
 }
 
 .projeto-row-reverse .text i:hover {
-    color: red;
+  color: red;
 }
 
 .projeto-row-reverse .img img {
-    max-width: 500px;
-    width: 100%;
+  max-width: 500px;
+  width: 100%;
 }
 
 .projeto-row-reverse .img img:hover {
-    transform: scale(1.1);
-    transition: 0.3s all;
+  transform: scale(1.1);
+  transition: 0.3s all;
 }
 
 @media (max-width: 768px) {
-    .projeto-row {
-        flex-direction: column;
-    }
+  .projeto-row {
+    flex-direction: column;
+  }
 
-    .projeto-row-reverse {
-        flex-direction: column;
-    }
+  .projeto-row-reverse {
+    flex-direction: column;
+  }
 }
