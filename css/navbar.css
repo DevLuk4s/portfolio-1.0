@@ -30,16 +30,27 @@
 }
 
 .nav-link {
+  position: relative;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #000000;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.nav-link:hover {
-  color: red;
-  transition: 0.3s all;
+.nav-link:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background-color: #ff0000;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover:before {
+  width: 100%;
 }
 
 .mobile-menu-icon {

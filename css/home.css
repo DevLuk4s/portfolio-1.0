@@ -21,35 +21,35 @@
 }
 
 .home-text span {
-  color: red;
+  color: #ff0000;
 }
 
 .home-text button {
-  max-width: 150px;
   width: 100%;
+  max-width: 200px;
   height: auto;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 20px;
+  margin: 15px 5px;
   border: none;
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid #000000;
 }
 
 .btn-curriculo:hover {
-  background-color: red;
-  color: white;
+  background-color: #ff0000;
+  color: #ffffff;
   transition: 0.3s all;
 }
 
 .btn-github:hover {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   transition: 0.3s all;
 }
 
 .btn-linkedin:hover {
-  background-color: rgb(10, 109, 194);
-  color: white;
+  background-color: #18189d;
+  color: #ffffff;
   transition: 0.3s all;
 }
 
