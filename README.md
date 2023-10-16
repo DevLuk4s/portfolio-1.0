@@ -5,4 +5,5 @@ link do meu portifolio https://devluk4s.github.io/portfolio/
 
 https://github.com/DevLuk4s/portfolio/assets/114165245/af5b14aa-9e8e-471e-b9e9-a507fd93a8db
 
-Uploading 2023-09-24 18-53-23.mp4…
+![Captura da Web_16-10-2023_174218_devluk4s github io](https://github.com/DevLuk4s/portfolio/assets/114165245/86c6539e-0304-4785-9c00-de333790a003)
+
